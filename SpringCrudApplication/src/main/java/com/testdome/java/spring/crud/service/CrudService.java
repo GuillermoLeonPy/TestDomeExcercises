@@ -1,9 +1,9 @@
-package com.testdome.java.spring.repository;
+package com.testdome.java.spring.crud.service;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface CrudRepository<T> {
+public interface CrudService<T> {
 
 	public List<T> getAll();
 	public T create(T t);

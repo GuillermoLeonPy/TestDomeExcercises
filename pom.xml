@@ -4,6 +4,10 @@
   <artifactId>challenges</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <properties>
+	<maven.compiler.target>18</maven.compiler.target>
+	<maven.compiler.source>18</maven.compiler.source>
+  </properties>
 
 <dependencies>  
 	<dependency>
@@ -15,5 +19,8 @@
 </dependencies>
 	<modules>
 		<module>SpringAOP</module>
+		<module>Algorithms</module>
+		<module>ChacheCasting</module>
+		<module>SpringCrudApplication</module>
 	</modules>
 </project>

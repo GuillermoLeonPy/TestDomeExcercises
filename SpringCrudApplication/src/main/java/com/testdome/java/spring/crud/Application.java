@@ -1,10 +1,10 @@
-package com.testdome.java.spring;
+package com.testdome.java.spring.crud;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.testdome.java.spring.config.ApplicationConfig;
-import com.testdome.java.spring.service.impl.PersonServiceImpl;
+import com.testdome.java.spring.crud.config.ApplicationConfig;
+import com.testdome.java.spring.crud.service.impl.PersonServiceImpl;
 
 public class Application {
 	

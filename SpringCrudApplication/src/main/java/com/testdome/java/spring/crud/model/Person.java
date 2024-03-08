@@ -1,4 +1,4 @@
-package com.testdome.java.spring.model;
+package com.testdome.java.spring.crud.model;
 
 public class Person {
 

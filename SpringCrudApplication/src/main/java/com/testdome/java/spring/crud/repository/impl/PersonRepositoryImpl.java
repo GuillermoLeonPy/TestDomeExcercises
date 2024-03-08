@@ -1,29 +1,31 @@
-package com.testdome.java.spring.service.impl;
+package com.testdome.java.spring.crud.repository.impl;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
-import com.testdome.java.spring.model.Person;
-import com.testdome.java.spring.repository.impl.PersonRepositoryImpl;
-import com.testdome.java.spring.service.CrudService;
+import com.testdome.java.spring.crud.model.Person;
+import com.testdome.java.spring.crud.repository.CrudRepository;
 
-@Service
-public class PersonServiceImpl implements CrudService<Person> {	
+@Repository
+public class PersonRepositoryImpl implements CrudRepository<Person> {
+
+	private List<Person> list;
 	
-	private PersonRepositoryImpl personRepository;
-	
-	public PersonServiceImpl(PersonRepositoryImpl personRepository) {
+	public PersonRepositoryImpl() {
 		super();
-		this.personRepository = personRepository;
+		// TODO Auto-generated constructor stub
+		list = new ArrayList<>();
+		list.add(new Person(1, "Jhonn"));
+		list.add(new Person(2, "Peter"));
 	}
 
 	@Override
 	public List<Person> getAll() {
 		// TODO Auto-generated method stub
-		return personRepository.getAll();
+		return list;
 	}
 
 	@Override
