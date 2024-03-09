@@ -23,5 +23,6 @@
 		<module>ChacheCasting</module>
 		<module>SpringCrudApplication</module>
 		<module>MovieRepository</module>
+		<module>WeatherForecastService</module>
 	</modules>
 </project>
