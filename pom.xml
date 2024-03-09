@@ -22,5 +22,6 @@
 		<module>Algorithms</module>
 		<module>ChacheCasting</module>
 		<module>SpringCrudApplication</module>
+		<module>MovieRepository</module>
 	</modules>
 </project>
