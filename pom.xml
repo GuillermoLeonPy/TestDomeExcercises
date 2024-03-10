@@ -24,5 +24,6 @@
 		<module>SpringCrudApplication</module>
 		<module>MovieRepository</module>
 		<module>WeatherForecastService</module>
+		<module>PetDAO</module>
 	</modules>
 </project>

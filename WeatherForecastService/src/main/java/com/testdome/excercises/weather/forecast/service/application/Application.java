@@ -1,14 +1,17 @@
 package com.testdome.excercises.weather.forecast.service.application;
 
-
-
-import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.event.ApplicationContextEvent;
 
 import com.testdome.excercises.weather.forecast.service.config.Config;
 
+
+/*
+ * 
+ * mvn clean compile exec:java
+ * 
+ * */
 public class Application {
 
 	public static void main(String[] args) {
